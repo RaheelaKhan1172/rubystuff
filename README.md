@@ -1,4 +1,4 @@
 # My projects in Ruby
-### Just some projects I fiddled with using Ruby ^_^
+### Just some fiddling using Ruby 
 
 
