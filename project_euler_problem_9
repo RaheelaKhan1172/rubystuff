@@ -1,0 +1,27 @@
+def py                                                                                   
+product = 0 
+
+max = 1000
+min = 2 
+while min <= max 
+  j = 2 
+  correct_triplets = false
+  while (j <= max) && (not correct_triplets)
+    sum = (min*min) + (j*j)
+    result = Math.sqrt(sum)
+    possibly_correct = min + j + result
+    if possibly_correct == max 
+      product = (min*j*result)
+      correct_triplets = true
+    end 
+  j+=1
+  end 
+if correct_triplets == true
+  return product
+end
+min+=1
+end
+return product
+end
+
+puts py() 
